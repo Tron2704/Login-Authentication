@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secured Page</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+   <button onclick="confirmLogout()" class="logout">Logout</button>
+   <div class="confirmation-modal" id="confirmationModal">
+    <p>Are you sure you want to logout?</p>
+    <div class="btn-container">
+        <button class="yes" onclick="logout()">Yes</button>
+    <button class="no" onclick="closeConfirmation()">No</button>
+    </div>
+  </div>
+<script src="second.js"></script>
+</body>
+</html>
